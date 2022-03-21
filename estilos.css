@@ -1,0 +1,21 @@
+html {
+  background-color: mediumvioletred;
+}
+.colors {
+  background-color: green;
+  color: yellow;
+}
+
+.text {
+  font-size: 3rem;
+}
+
+.colorin {
+  font-size: 5rem;
+  background-color: lawngreen;
+}
+
+.azul {
+  background-color: red;
+  font-size: 5rem;
+}
