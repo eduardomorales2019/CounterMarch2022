@@ -36,14 +36,52 @@ document.body.appendChild(ul);
 
 // select  element.
 // ddeventlistener
-function alertFunction() {
-  alert("hola");
-}
 
 const btn = document.querySelector("#boton");
+let texto = document.getElementById("2");
+console.log(texto);
 console.log(btn);
-btn.addEventListener("click", alertFunction);
+btn.addEventListener("mousedown", alertFunction);
+
+function alertFunction() {
+  let hasclass = texto.classList.contains("text");
+  if (hasclass) {
+    texto.classList.remove("text");
+  } else {
+    texto.classList.add("text");
+  }
+}
 
 // function reference !!!
 
-f;
+//?  usuing to change clases and addd functiioballyty
+
+// ! click, mousedown, mouse down, mouseeter,. mouseleave.  some examples
+
+const heading = document.getElementById("2");
+console.log(heading);
+
+// ============
+const btn2 = document.querySelector("#boton2");
+const texto2 = document.getElementById("3");
+
+btn2.addEventListener("mouseenter", llamar);
+
+function llamar(event) {
+  event.preventDefault();
+  console.log(event);
+}
+
+// ===============================
+//! key event. !!!!
+//? keypress, keyydown, keyup
+// with forms and inputs
+
+let inputname = document.getElementById("inputname");
+console.log(inputname);
+
+inputname.addEventListener("keyup", function () {
+  console.log(inputname.value);
+});
+
+//! event object----------------------------->

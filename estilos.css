@@ -19,3 +19,12 @@ html {
   background-color: red;
   font-size: 5rem;
 }
+
+.border {
+  background-color: blue;
+}
+
+.text {
+  color: pink;
+  font-size: 3rem;
+}
