@@ -45,3 +45,5 @@ console.log(btn);
 btn.addEventListener("click", alertFunction);
 
 // function reference !!!
+
+f;
