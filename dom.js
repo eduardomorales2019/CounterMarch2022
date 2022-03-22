@@ -208,3 +208,44 @@ const heder = document.createElement("h4");
 heder.innerText = " hola este es inner text ";
 document.body.prepend(heder);
 heder.classList.add("azul");
+
+//!!  remove child /// remove!!!!!//
+// 2 methiods.  call selector methods with no object
+
+// heder.remove(); // este si lo quito aparece l pasdo
+//!____________________________________
+// // -----------codigo jueho
+// const Todos = [resultin.querySelectorAll("li")];
+// console.log(Todos);
+
+// const maping = Todos.map((item) => {
+//   return item;
+// });
+
+// const toString = maping.toString();
+// console.log(toString);
+// console.log(maping);
+
+// const newNodeMaping = document.createElement("ul");
+// const insertMaping = document.createTextNode(maping);
+// console.log(insertMaping);
+// document.body.insertBefore(insertMaping, result);
+// newNodeMaping.classList.add("azul");
+// ===============
+//!____________________________________
+
+const empty10 = document.createElement("p");
+const text = document.createTextNode("es es un paragafro");
+empty10.appendChild(text);
+console.log(empty10);
+document.body.appendChild(empty10);
+
+const borrado = document.querySelector(".borradoChild");
+console.log(borrado);
+borrado.classList.add("azul");
+
+console.log(borrado.children);
+
+borrado.remove(children);
+
+// iner html ------------------------
